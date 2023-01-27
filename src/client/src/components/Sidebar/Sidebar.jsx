@@ -29,9 +29,9 @@ const Sidebar =()=>
       <img class="rounded-full border border-gray-100 shadow-sm" src="https://randomuser.me/api/portraits/women/81.jpg" alt="user image" />
       <div class="absolute top-0 right-0 h-4 text-white font-bold text-3xl  ">4<StarIcon className="icon2"/></div>
      </div>
-      <div className="text-2xl text-white">Anny wales<br/>Researcher<br/>University of Texus
+      <div className="text-2xl text-white font-bold">Anny wales<br/></div>Researcher<br/>University of Texus
         
-      </div>
+
       </div>
       <hr />
       <div className="center">

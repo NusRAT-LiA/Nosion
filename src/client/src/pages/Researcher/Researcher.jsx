@@ -30,25 +30,26 @@ const Researcher =({projectLink,reviewBlock})=>
           <Chart/>
           </div>
           <div className="navbar bg-gradient-to-r from-indigo-500 ..."> <pre className="span text-white">Project-to-be-researched : <a href="https://github.com/NusRAT-LiA/Blockchain_in_Cpp-SPL-1" className="text-purple-900 "></a></pre></div>
-          <div className="bg-purple-200">
+          <div className="bg-purple-200 flex flex-col justify-center items-center">
           <form>
   <label for="findings">Findings:</label><br/>
-  <textarea id="findings" name="findings"></textarea>
+  <textarea id="findings" name="findings" className="w-96 h-32"></textarea>
   <br/>
   <label for="recommendation">Recommendations:</label><br/>
-  <textarea id="recommendation" name="recommendation"></textarea>
+  <textarea id="recommendation" name="recommendation" className="w-96 h-32"></textarea>
   <br/>
   <label for="investment">Estimated Investment Needed:</label><br/>
-  <input type="number" id="investment" name="investment"/>
+  <input type="number" id="investment" name="investment" className="w-96 h-32"/>
   <br/>
   <label for="impact">Estimated Impact:</label><br/>
-  <input type="text" id="impact" name="impact"/>
+  <input type="text" id="impact" name="impact" className="w-96 h-32"/>
   <br/>
   <label for="sustainability-index">Sustainability Index Analysis:</label><br/>
-  <textarea id="sustainability-index" name="sustainability-index"></textarea>
+  <textarea id="sustainability-index" name="sustainability-index " className="w-96 h-32 px-8 py-3 my-6 " ></textarea>
   <br/>
   <input type="submit" className="bg-purple-500 text-white px-8 py-3 mx-6 rounded-full hover:bg-purple-900 cursor-pointer" value="Submit"/>
-</form>
+  </form>
+
 </div>
           <div className="navbar bg-gradient-to-r from-indigo-500 ..."><pre className="span text-white">Block-to-verify :<Link to="/block" className="text-blue-900"> </Link></pre></div>
           </nav>
